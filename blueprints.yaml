@@ -1,0 +1,31 @@
+author:
+  email: samb@disroot.org
+  name: 'Sambhav Saggi'
+bugs: https://github.com/sambhavsaggi/grav-theme-singularity/issues
+demo: http://demo.yoursite.com
+dependencies:
+  - name: grav
+    version: >=1.7.0
+description: 'A light and fast theme for static sites'
+form:
+  fields:
+    dropdown.enabled:
+      default: 1
+      highlight: 1
+      label: 'Dropdown in Menu'
+      options:
+        0: PLUGIN_ADMIN.DISABLED
+        1: PLUGIN_ADMIN.ENABLED
+      type: toggle
+      validate:
+        type: bool
+  validation: loose
+homepage: https://github.com/sambhavsaggi/grav-theme-singularity
+icon: rebel
+keywords: 'grav, theme, singularity, fast'
+license: MIT
+name: Singularity
+readme: https://github.com/sambhavsaggi/grav-theme-singularity/blob/develop/README.md
+slug: singularity
+type: theme
+version: 0.1.0
